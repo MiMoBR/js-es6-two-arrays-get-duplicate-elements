@@ -1,0 +1,9 @@
+const aaa = [1,2,3,4,5,6];
+const bbb = [2,6,7,8,9,0];
+
+let getDuplicateValue = [...new Set(aaa)].filter((
+    item) =>
+        bbb.includes(item)
+);
+console.log(getDuplicateValue);
+//(2) [2, 6]0: 21: 6length: 2__proto__: Array(0)
